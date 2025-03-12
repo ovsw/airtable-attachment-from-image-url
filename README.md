@@ -32,8 +32,8 @@ This script helps you convert image URLs stored in an Airtable field into proper
    ```
 
    Where:
-   - `AIRTABLE_ACCESS_TOKEN`: Your Airtable API key (found in your account settings)
-   - `AIRTABLE_BASE_ID`: Your Airtable base ID (found in the API documentation when viewing your base)
+   - `AIRTABLE_ACCESS_TOKEN`: Your Airtable API Access Token(create one at https://airtable.com/create/tokens, with permission: data.records:read and data.records:write)
+   - `AIRTABLE_BASE_ID`: Your Airtable base ID (found in the API documentation when viewing your base, or just the first part of the airtable slug from the base URL: eg: https://airtable.com/[this-is-the-airtable-base-id]/.....)
    - `AIRTABLE_TABLE_NAME`: The name of your table containing the images (you can use spaces, no quote marks needed)
 
 ## Configuration

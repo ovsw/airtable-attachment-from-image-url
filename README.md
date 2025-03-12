@@ -34,7 +34,7 @@ This script helps you convert image URLs stored in an Airtable field into proper
    Where:
    - `AIRTABLE_ACCESS_TOKEN`: Your Airtable API key (found in your account settings)
    - `AIRTABLE_BASE_ID`: Your Airtable base ID (found in the API documentation when viewing your base)
-   - `AIRTABLE_TABLE_NAME`: The name of your table containing the images
+   - `AIRTABLE_TABLE_NAME`: The name of your table containing the images (you can use spaces, no quote marks needed)
 
 ## Configuration
 
